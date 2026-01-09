@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    padding: 20px 0;
+    background: #fff;
+    position: relative;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-menu-a a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-btn {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: #059669;
+}
+
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.early-badge {
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #10b981;
+    font-weight: 600;
+}
+
+.banner h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-primary {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #059669;
+}
+
+.btn-primary.large {
+    padding: 18px 36px;
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #333;
+}
+
+.btn-primary img {
+    height: 16px;
+}
+
+/* Notes Section */
+.notes-section {
+    text-align: center;
+    padding: 100px 40px;
+    background: #f9fafb;
+}
+
+.notes-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.notes-section > p {
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: #666;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    width: 250px;
+    text-align: center;
+}
+
+.icon-bg {
+    background: #f52f2f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bg img {
+    height: 40px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+.second-brain-section {
+    padding: 120px 40px;
+    background: white;
+}
+
+.second-brain-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.brain-image img {
+    max-width: 500px;
+}
+
+.brain-text {
+    flex: 1;
+}
+
+.solution {
+    color: #157b4d;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.brain-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.brain-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.feature-list img {
+    height: 24px;
+}
+
+
+.early-access-section {
+    text-align: center;
+    padding: 100px 40px;
+    background: #f3f4f6;
+}
+
+.early-access-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.early-access-section > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.free-note {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.bottom-note {
+    margin-top: 20px;
+    color: #666;
+}
+
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 60px 40px 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.social-links img {
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
